@@ -1,0 +1,28 @@
+.land-info-main-container a {
+  all: unset;
+}
+.land-info-main-container #heading {
+  text-align: center;
+}
+.land-info-main-container #cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.land-info-main-container #add-land {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.land-info-main-container #add-land button {
+  padding: 1rem;
+  border-radius: 12px;
+  border: none;
+  background-color: #a6c1ee;
+  width: 12vw;
+}
+.land-info-main-container #add-land button:hover {
+  cursor: pointer;
+  color: whitesmoke;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}/*# sourceMappingURL=LandInfo.css.map */

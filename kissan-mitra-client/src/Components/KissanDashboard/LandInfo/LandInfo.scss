@@ -1,0 +1,42 @@
+.land-info-main-container {
+
+    a{
+        all: unset;
+    }
+
+    #heading {
+        text-align: center;
+    }
+
+    #cards-container {
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #add-land {
+
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+
+        button {
+
+            padding: 1rem;
+            border-radius: 12px;
+            border: none;
+            background-color: #a6c1ee;
+            width: 12vw;
+            
+        }
+
+        button:hover {
+
+            cursor: pointer;
+            color: whitesmoke;
+            background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+        }
+    }
+
+}

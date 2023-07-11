@@ -1,0 +1,14 @@
+#info-main-container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+  padding: 2rem;
+  height: 19rem;
+  width: 16rem;
+}
+#info-main-container #id {
+  width: 100%;
+  margin: 1rem;
+}/*# sourceMappingURL=infoCards.css.map */

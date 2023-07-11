@@ -1,0 +1,81 @@
+.addLand {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f6fefb;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.addLand h1 {
+  color: #15471f;
+  font-size: 40px;
+}
+.addLand .addLandForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.addLand .addLandForm .h-rule {
+  color: #15471f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.addLand .addLandForm .h-rule span {
+  font-size: 30px;
+}
+.addLand .addLandForm .h-rule hr {
+  width: 20rem;
+}
+.addLand .addLandForm form {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.addLand .addLandForm form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.addLand .addLandForm form .btns-addland {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  grid-column: 1/span 2;
+}
+.addLand .addLandForm form .btns-addland .submit-btn {
+  all: unset;
+  background-color: #e8f8eb;
+  border-radius: 25px;
+  width: 9rem;
+  height: 3rem;
+  text-align: center;
+  color: #15471f;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 19px;
+}
+.addLand .addLandForm form .btns-addland .submit-btn:hover {
+  background-color: #8FF0A4;
+  color: black;
+}
+.addLand .addLandForm form .grid-row-desc {
+  grid-column: 1/span 2;
+}
+.addLand .addLandForm form label {
+  font-weight: 300;
+  font-size: 20px;
+  color: #15471f;
+}
+.addLand .addLandForm form input {
+  all: unset;
+  width: 15rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: #61b93c 1px solid;
+  color: #2f5b1c;
+}/*# sourceMappingURL=AddLand.css.map */

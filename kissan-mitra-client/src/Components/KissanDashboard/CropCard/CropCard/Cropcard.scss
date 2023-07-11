@@ -1,0 +1,62 @@
+$grad1: rgb(235, 251, 241);
+$grad2: rgb(192, 253, 215);
+$text-subhead: #031637;
+
+.cropCard-container {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  margin-top: 5rem;
+  // border-style: solid;
+  border-radius: 2%;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  // z-index: 3;
+  .headingcropcard {
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .cropcard-details-container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    .cropcard-details {
+      cursor: pointer;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.2);
+      width: 18rem;
+      height: 5rem;
+      .circle {
+        border-radius: 3px;
+        width: 50px;
+        height: 50px;
+        background: black;
+        position: absolute;
+        right: 0px;
+        top: 0;
+        background-image: linear-gradient(to top, $grad1 0%, $grad2 100%);
+        border-bottom-left-radius: 170px;
+      }
+    }
+    .cropname-corpcard{
+      text-align: center;
+      font-weight:500;
+      font-size: 22px;
+      color:$text-subhead;
+    }
+    .totalarea-cropcard{
+      margin-top: 1rem;
+      margin-left: 1rem;
+    }
+  }
+}

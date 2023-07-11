@@ -1,0 +1,21 @@
+#heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.mainContent #info-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mainContent #info-container div :hover {
+  cursor: pointer;
+  background-color: RGB(20, 20, 20);
+  color: white;
+}/*# sourceMappingURL=ZameenInfo.css.map */

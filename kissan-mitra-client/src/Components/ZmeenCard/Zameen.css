@@ -1,0 +1,12 @@
+.zameen-container {
+  margin: 1%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.zameen-container #location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}/*# sourceMappingURL=Zameen.css.map */

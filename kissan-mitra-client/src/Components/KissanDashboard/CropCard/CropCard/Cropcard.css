@@ -1,0 +1,55 @@
+.cropCard-container {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  margin-top: 5rem;
+  border-radius: 2%;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.cropCard-container .headingcropcard {
+  font-weight: 600;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.cropCard-container .cropcard-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.cropCard-container .cropcard-details-container .cropcard-details {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.2);
+  width: 18rem;
+  height: 5rem;
+}
+.cropCard-container .cropcard-details-container .cropcard-details .circle {
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  background-image: linear-gradient(to top, rgb(235, 251, 241) 0%, rgb(192, 253, 215) 100%);
+  border-bottom-left-radius: 170px;
+}
+.cropCard-container .cropcard-details-container .cropname-corpcard {
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  color: #031637;
+}
+.cropCard-container .cropcard-details-container .totalarea-cropcard {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}/*# sourceMappingURL=Cropcard.css.map */
